@@ -1,0 +1,13 @@
+$primary: crimson;
+$secondary: royalblue;
+
+h1 {
+  font-size: 60px;
+  color: $primary;
+  span {
+    color: crimson;
+    &:hover {
+      color: red;
+    }
+  }
+}
