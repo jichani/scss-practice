@@ -46,25 +46,8 @@ section {
     width: $items-width;
     // margin: auto;
     display: flex;
-    > div {
-      border: 3px solid green;
-      // float: left;
-      // width: (894px / 3);
-      flex: 1;
-      height: 200px;
-      &:first-child {
-        background-color: crimson;
-      }
-      &:nth-child(2) {
-        background-color: yellowgreen;
-      }
-      &:last-child {
-        background-color: royalblue;
-      }
-      &:hover {
-        background-color: #000;
-        color: #fff;
-      }
+    div {
+      border: 1px solid red;
     }
   }
 }

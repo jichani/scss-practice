@@ -42,21 +42,6 @@ section .items {
   width: 900px;
   display: flex;
 }
-section .items > div {
-  border: 3px solid green;
-  flex: 1;
-  height: 200px;
-}
-section .items > div:first-child {
-  background-color: crimson;
-}
-section .items > div:nth-child(2) {
-  background-color: yellowgreen;
-}
-section .items > div:last-child {
-  background-color: royalblue;
-}
-section .items > div:hover {
-  background-color: #000;
-  color: #fff;
+section .items div {
+  border: 1px solid red;
 }/*# sourceMappingURL=style.css.map */
